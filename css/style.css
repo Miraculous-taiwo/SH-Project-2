@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(../images/restaurant\ 1.png);
+    overflow: hidden;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 15px 800px 15px;
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 200px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+
+.left, .right{
+    display: flex;
+    align-items: center;
+}   
+
+.center{
+    margin-top: 200px;
+}
+
+h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.home_text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size:  23px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 50px auto;
+}    
+
+.button{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 230px 230px;
+    
+
+}
+button{
+    box-sizing: border-box;   
+    width: 200px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 2px;
+
+}
