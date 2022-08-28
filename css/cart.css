@@ -11,7 +11,7 @@ main{
     overflow: hidden;
     width: 100%;
     margin-left: 300px;
-    margin: 25px 35px auto 250px;
+    margin: 30px 50px;
     display: grid;
     grid-template-columns: 100px 420px 300px;
     height: auto;
@@ -115,6 +115,7 @@ span{
     font-weight: 400;
     font-size: 30px;
     line-height: 20px;
+    margin: 10px 0;
 }
 
 .sub_head{
@@ -122,6 +123,7 @@ span{
     font-weight: 400;
     font-size: 20px;
     line-height: 18px;
+    margin: 10px 0 30px 0;
 }
 
 button{
@@ -129,7 +131,7 @@ button{
     color: #FFFFFF;
     background: #000000;
     padding: 10px 30px;
-
+    margin-top: 30px;
 }
 
 input{
@@ -144,7 +146,6 @@ input::placeholder{
 }
 
 footer{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
