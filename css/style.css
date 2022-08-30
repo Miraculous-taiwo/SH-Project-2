@@ -5,6 +5,7 @@
 
 body{
     background: url(../images/restaurant\ 1.png);
+    background-repeat: no repeat;
     overflow: hidden;
     height: 700px;
     display: grid;
